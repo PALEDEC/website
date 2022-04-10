@@ -24,12 +24,12 @@ class MainBanner extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="main-banner-content">
-                                            <h1>We're an IT agency</h1>
+                                            <h1  class='banner-title'><span>Facilitating Prosperity in</span> AFRICA </h1>
                                                 
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            <p> Building relationships and connections that connects Africa to the world at large through Entreprenueship.</p>
                                         
                                             <Link href="/contact">
-                                                <a className="btn btn-primary">Get Started</a>
+                                                <a className="btn btn-primary">Our Blog </a>
                                             </Link>
 
                                             <Link href="/#play-video">
@@ -37,7 +37,7 @@ class MainBanner extends Component {
                                                     onClick={e => {e.preventDefault(); this.openModal()}}
                                                     className="btn btn-secondary"
                                                 > 
-                                                    <i className="icofont-ui-play"></i> How it works
+                                                    <i className="icofont-ui-play"></i> PAHESA Summit 2022
                                                 </a>
                                             </Link>
                                         </div> 

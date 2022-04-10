@@ -483,7 +483,7 @@ label {
 Navbar CSS
 =================================================*/
 .navbar-area {
-  background: transparent;
+  background: white;
   position: absolute;
   top: 0;
   left: 0;
@@ -761,7 +761,7 @@ Navbar CSS
 }
 
 .navbar-area.navbar-style-2 nav .navbar-nav .nav-item a {
-  color: #ffffff;
+  color: #0e0101;
 }
 
 .navbar-area.navbar-style-2.is-sticky .navbar-brand {
@@ -965,7 +965,7 @@ Main Banner CSS
 
 .hero-banner.overly::before {
   content: "";
-  background-color: #18181b;
+  background-color: #181717;
   opacity: .85;
   position: absolute;
   left: 0;
@@ -1203,7 +1203,7 @@ Main Banner CSS
 
 .hero-bg4 {
   background-position: center center;
-  background-image: url(/images/hero-banner4.jpg);
+  background-image: url(/images/hm.jpg);
 }
 
 .hero-bg5 {
@@ -1358,6 +1358,23 @@ Main Banner CSS
   top: -67px;
 }
 
+.banner-title{
+  font-size: 150px !important;
+  /* line-height: 0px !important; */
+}
+.white-logo{
+  width: 80% !important;
+}
+.black-logo{
+  width: 80% !important;
+}
+
+.banner-title span{
+font-size: 30px;
+line-height: 0px !important;
+margin-bottom: -10px;
+margin-left: 30px;
+}
 .banner-animation-image img:nth-child(5) {
   left: 0;
   bottom: -15px;

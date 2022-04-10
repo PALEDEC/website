@@ -1,50 +1,35 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
-import MainBanner from '../components/DefaultHome/MainBanner';
-import Services from '../components/DefaultHome/Services';
-import About from '../components/DefaultHome/About';
+import NavbarTwo from '../components/Layouts/NavbarTwo';
+import MainBanner from '../components/ItAgency/MainBanner';
 import OurWorks from '../components/DefaultHome/OurWorks';
+import CtaAreaTwo from '../components/Common/CtaAreaTwo';
+import OurServices from '../components/ItAgency/OurServices';
+import ServiceStyleTwo from '../components/ItAgency/ServiceStyleTwo';
+import WhyChooseUs from '../components/ItAgency/WhyChooseUs';
+import FunFactsTwo from '../components/Common/FunFactsTwo';
 import Feedback from '../components/Common/Feedback';
-import Team from '../components/Common/Team';
-import FunFacts from '../components/Common/FunFacts';
-import LatestNewsSlider from '../components/Common/LatestNewsSlider';
-import CtaArea from '../components/Common/CtaArea';
-import Partner from '../components/Common/Partner';
+import PricingStyleThree from '../components/Pricing/PricingStyleThree';
+import TeamStyleTwo from '../components/Common/TeamStyleTwo';
+import LatestNewsSliderTwo from '../components/Common/LatestNewsSliderTwo';
+import Newsletter from '../components/Common/Newsletter';
 import Footer from '../components/Layouts/Footer';
-import WorkProcess from '../components/DefaultHome/WorkProcess';
+import Partner from '../components/Common/Partner';
 
-class Index extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
+const Home =()=>{
 
-                <MainBanner />
-
-                <Services />
-
-                <About />
-
-                <OurWorks />
-
-                <WorkProcess />
-
-                <Feedback />
-
-                <Team />
-
-                <FunFacts />
-
-                <LatestNewsSlider />
-
-                <CtaArea />
-
-                <Partner />
+    return(
+    <>
+         <NavbarTwo />
                 
+                <MainBanner /> 
+                <OurWorks />
+                <CtaAreaTwo />
                 <Footer />
-            </>
-        );
-    }
+
+
+
+ 
+    </>)
 }
 
-export default Index;
+export default Home
