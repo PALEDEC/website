@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
+import Navbar from '../components/Layouts/Navbar';
 import MainBanner from '../components/ItAgency/MainBanner';
 import OurWorks from '../components/DefaultHome/OurWorks';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
@@ -19,7 +19,7 @@ const Home =()=>{
 
     return(
     <>
-         <NavbarTwo />
+         <Navbar />
                 
                 <MainBanner /> 
                 <OurWorks />
