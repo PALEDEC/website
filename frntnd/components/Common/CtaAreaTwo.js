@@ -7,13 +7,13 @@ class CtaAreaTwo extends Component {
             <div className="cta-area-two ptb-100">
                 <div className="container">
                     <div className="cta-content">
-                        <span>So What is Next?</span>
-                        <h3>Are You Ready? Let's get to work!</h3>
+                        <span>Are You Ready?</span>
+                        <h3>PAHESA 2022 is here!</h3>
                     </div>
 
                     <div className="cta-btn-box">
                         <Link href="/contact">
-                            <a className="custom-btn">Contact Us</a>
+                            <a className="custom-btn">Click here to Volunteer</a>
                         </Link>
                     </div>
                 </div>

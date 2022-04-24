@@ -13,102 +13,25 @@ class OurWorks extends Component {
                         </div>
 
                         <div className="row justify-content-center">
-                            <div className="col-lg-4 col-md-6">
-                                <div className="single-case-studies bg1">
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>Web Design</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>Designing a better cinema experience</a>
-                                            </Link>
-                                        </h3>
-                                    </div>
-
-                                    <Link href="/portfolio-details">
-                                        <a className="btn btn-primary">View Case Study</a>
-                                    </Link>
-
-                                    <div className="shape">
-                                        <img src="/images/case-studies/studie-shape1.png" alt="logo" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6">
-                                <div className="single-case-studies bg2">
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>Development</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>Building design process within teams</a>
-                                            </Link>
-                                        </h3>
-                                    </div>
-
-                                    <Link href="/portfolio-details">
-                                        <a className="btn btn-primary">View Case Study</a>
-                                    </Link>
-
-                                    <div className="shape">
-                                        <img src="/images/case-studies/studie-shape2.png" alt="logo" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6">
-                                <div className="single-case-studies bg3">
-                                    <div className="content">
-                                        <span>
-                                            <Link href="/portfolio-details">
-                                                <a>Web Development</a>
-                                            </Link>
-                                        </span>
-
-                                        <h3>
-                                            <Link href="/portfolio-details">
-                                                <a>How intercom brings play into their design process</a>
-                                            </Link>
-                                        </h3>
-                                    </div>
-
-                                    <Link href="/portfolio-details">
-                                        <a className="btn btn-primary">View Case Study</a>
-                                    </Link>
-
-                                    <div className="shape">
-                                        <img src="/images/case-studies/studie-shape3.png" alt="logo" />
-                                    </div>
-                                </div>
-                            </div>
-
+            
                             <div className="col-lg-4 col-md-6">
                                 <div className="single-case-studies bg4">
                                     <div className="content">
                                         <span>
                                             <Link href="/portfolio-details">
-                                                <a>React Development</a>
+                                                <a>PAHESA</a>
                                             </Link>
                                         </span>
 
                                         <h3>
                                             <Link href="/portfolio-details">
-                                                <a>Stuck with to-do list, I created a new app for myself</a>
+                                                <a>Pan-African Humaniterian and Enterpreneural Summit</a>
                                             </Link>
                                         </h3>
                                     </div>
 
                                     <Link href="/portfolio-details">
-                                        <a className="btn btn-primary">View Case Study</a>
+                                        <a className="btn btn-primary">View Past Events</a>
                                     </Link>
 
                                     <div className="shape">
@@ -122,19 +45,19 @@ class OurWorks extends Component {
                                     <div className="content">
                                         <span>
                                             <Link href="/portfolio-details">
-                                                <a>Angular Development</a>
+                                                <a>Child Summit</a>
                                             </Link>
                                         </span>
 
                                         <h3>
                                             <Link href="/portfolio-details">
-                                                <a>Examples of different types of sprints</a>
+                                                <a>Child Summit</a>
                                             </Link>
                                         </h3>
                                     </div>
 
                                     <Link href="/portfolio-details">
-                                        <a className="btn btn-primary">View Case Study</a>
+                                        <a className="btn btn-primary">View Past Events</a>
                                     </Link>
 
                                     <div className="shape">
@@ -148,19 +71,19 @@ class OurWorks extends Component {
                                     <div className="content">
                                         <span>
                                             <Link href="/portfolio-details">
-                                                <a>App Development</a>
+                                                <a>FBI</a>
                                             </Link>
                                         </span>
 
                                         <h3>
                                             <Link href="/portfolio-details">
-                                                <a>Redesigning the New York times app</a>
+                                                <a>FBI Magazine</a>
                                             </Link>
                                         </h3>
                                     </div>
 
                                     <Link href="/portfolio-details">
-                                        <a className="btn btn-primary">View Case Study</a>
+                                        <a className="btn btn-primary">View past editions</a>
                                     </Link>
 
                                     <div className="shape">
@@ -172,7 +95,7 @@ class OurWorks extends Component {
 
                         <div className="view-more-work">
                             <Link href="/portfolio">
-                                <a className="btn btn-primary">View More Work</a>
+                                <a className="btn btn-primary">Check out our Impact </a>
                             </Link>
                         </div>
                     </div>
