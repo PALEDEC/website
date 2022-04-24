@@ -16,35 +16,12 @@ class Footer extends Component {
                                     <div className="logo">
                                         <Link href="/">
                                             <a>
-                                                <img src="/images/logo.png" alt="image" />
+                                                <img src="/images/paladec.png" alt="image" />
                                             </a>
                                         </Link>
                                     </div>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                                    <ul className="social-links">
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="icofont-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/" target="_blank">
-                                                <i className="icofont-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="linkedin.com" target="_blank">
-                                                <i className="icofont-linkedin"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/" target="_blank">
-                                                <i className="icofont-instagram"></i>
-                                            </a>
-                                        </li> 
-                                    </ul>
+                                   
                                 </div>
                             </div>
 
@@ -60,24 +37,20 @@ class Footer extends Component {
                                         </li>
                                         <li>
                                             <Link href="/about">
-                                                <a>About</a>
+                                                <a>About </a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/services">
-                                                <a>Services</a>
+                                                <a>What we do</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/portfolio">
-                                                <a>Portfolio</a>
+                                                <a>Our Impacts</a>
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link href="/team">
-                                                <a>Team</a>
-                                            </Link>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -89,27 +62,27 @@ class Footer extends Component {
                                     <ul className="list">
                                         <li>
                                             <Link href="/contact">
-                                                <a>Contact Us</a>
+                                                <a>PAHESA</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/pricing">
-                                                <a>Pricing</a>
+                                                <a>FBI Magazine</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/faq">
-                                                <a>Faq</a>
+                                                <a>Child Summit </a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/privacy-policy">
-                                                <a>Privacy Policy</a>
+                                                <a>Volunteer</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/terms-conditions">
-                                                <a>Terms & Conditions</a>
+                                                <a>Team</a>
                                             </Link>
                                         </li>
                                     </ul>
@@ -121,14 +94,22 @@ class Footer extends Component {
                                     <h3>Get in Touch</h3>
 
                                     <ul className="get-in-touch">
-                                        <li><i className="icofont-home"></i> 2750 Quadra Street Victoria, Canada.</li>
+                                      
                                         <li>
-                                            <i className="icofont-live-support"></i> 
-                                            <a href="tel:+324-9442-515">+324-9442-515</a>
+                                        <i className="icofont-twitter"></i>
+                                            <a href="#">@paledec</a>
                                         </li>
                                         <li>
-                                            <i className="icofont-envelope"></i> 
-                                            <a href="mailto:hello@pungent.com">hello@pungent.com</a>
+                                        <i className="icofont-instagram"></i>
+                                            <a href="#">@paledec_gram</a>
+                                        </li>
+                                        <li>
+                                        <i className="icofont-facebook"></i>
+                                            <a href="#">PALEDEC</a>
+                                        </li>
+                                        <li>
+                                        <i class="icofont-email"></i>
+                                        <a href="#">hello@paledec.org</a>
                                         </li>
                                     </ul>
                                 </div>
