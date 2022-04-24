@@ -86,7 +86,7 @@ class NavbarTwo extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/portfolio" activeClassName="active">
+                                                <Link href="/pahesa" activeClassName="active">
                                                     <a className="nav-link">PAHESA</a>
                                                 </Link>
                                             </li>

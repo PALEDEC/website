@@ -20,17 +20,7 @@ class Aabout extends Component {
                     BGImage="bg-one"
                 />  
 
-                <AboutContent />
-
-                <FunFactsTwo />
-
-                <TeamStyleThree />
-
-                <Feedback />
-
-                <Partner />
-
-                <CtaAreaTwo />
+<p>Page content is currently being updated... Checkback shortly</p>
                 
                 <Footer/>
             </>

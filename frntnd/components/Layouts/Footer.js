@@ -81,7 +81,7 @@ class Footer extends Component {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/terms-conditions">
+                                            <Link href="/team">
                                                 <a>Team</a>
                                             </Link>
                                         </li>

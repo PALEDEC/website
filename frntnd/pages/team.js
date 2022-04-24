@@ -16,11 +16,10 @@ class Team extends Component {
                     pageTitle="Our Skilled Team" 
                     BGImage="bg-one"
                 />  
-                <TeamStyleThree />
+             
 
                 <TeamStyleTwo />
 
-                <CtaAreaTwo />
                 
                 <Footer />
             </>

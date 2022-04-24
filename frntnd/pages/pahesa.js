@@ -6,22 +6,18 @@ import WorksStyleTwo from '../components/Portfolio/WorksStyleTwo';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
 
-class Portfolio extends Component {
+class Pahesa extends Component {
     render() {
         return (
             <>
                 <NavbarTwo />
 
                 <PageBanner 
-                    pageTitle="Our Portfolio" 
+                    pageTitle="PAHESA" 
                     BGImage="bg-three"
                 />  
-
-                <WorksStyleOne />
-
-                <WorksStyleTwo />
-
-                <CtaAreaTwo />
+<h1>jisjsjsjbnsfjsdjbdsj</h1>
+              
                 
                 <Footer />
             </>
@@ -29,4 +25,4 @@ class Portfolio extends Component {
     }
 }
 
-export default Portfolio;
+export default Pahesa;
