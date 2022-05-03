@@ -24,7 +24,7 @@ class MainBanner extends Component {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6">
                                         <div className="main-banner-content">
-                                            <h1  class='banner-title'><span>Facilitating Prosperity in</span> AFRICA </h1>
+                                            <h1  className='banner-title'><span>Facilitating Prosperity in</span> AFRICA </h1>
                                                 
                                             <p> Building relationships and connections that connects Africa to the world at large through Entreprenueship.</p>
                                         

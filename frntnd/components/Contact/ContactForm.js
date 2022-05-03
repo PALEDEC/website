@@ -52,7 +52,7 @@ const ContactForm = () => {
 
     return (
         <div className="contact-form">
-            <h2>Get In Touch</h2>
+            <h2>Volunteer Interest Form</h2>
   
             <form onSubmit={handleSubmit}>
                 <div className="container">
@@ -100,8 +100,8 @@ const ContactForm = () => {
                             <div className="form-group">
                                 <input 
                                     type="text" 
-                                    name="subject" 
-                                    placeholder="Subject" 
+                                    name="area" 
+                                    placeholder="Area of Interest" 
                                     className="form-control" 
                                     value={contact.subject}
                                     onChange={handleChange} 
@@ -115,7 +115,7 @@ const ContactForm = () => {
                                     name="text" 
                                     cols="30" 
                                     rows="6" 
-                                    placeholder="Write your message..." 
+                                    placeholder="Additional Message" 
                                     className="form-control" 
                                     value={contact.text}
                                     onChange={handleChange} 

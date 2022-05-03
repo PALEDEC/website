@@ -64,10 +64,8 @@ class NavbarTwo extends Component {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Home 
-                                            </a>
+                                        <Link href="/" activeClassName="active" >
+                                            <a className="nav-link">Home </a>
                                         </Link>
                                     </li> 
 
@@ -106,10 +104,8 @@ class NavbarTwo extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
-                                               Our Impacts
-                                            </a>
+                                        <Link href="/impact" activeClassName="active">
+                                            <a className="nav-link">Our Impact</a>
                                         </Link>
                                     </li>
 
@@ -142,8 +138,8 @@ class NavbarTwo extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="#">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                        <Link href="/blog">
+                                            <a className="nav-link" >
                                                 Blog 
                                             </a>
                                         </Link>
@@ -153,7 +149,7 @@ class NavbarTwo extends Component {
                                 </ul>
 
                                 <div className="others-options">
-                                    <Link href="/pricing">
+                                    <Link href="/volunteers">
                                         <a className="btn btn-primary">
                                            Register as a Volunteer
                                         </a>

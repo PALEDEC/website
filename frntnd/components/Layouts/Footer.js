@@ -108,7 +108,7 @@ class Footer extends Component {
                                             <a href="#">PALEDEC</a>
                                         </li>
                                         <li>
-                                        <i class="icofont-email"></i>
+                                        <i className="icofont-email"></i>
                                         <a href="#">hello@paledec.org</a>
                                         </li>
                                     </ul>

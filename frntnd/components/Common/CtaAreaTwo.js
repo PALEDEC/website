@@ -12,7 +12,7 @@ class CtaAreaTwo extends Component {
                     </div>
 
                     <div className="cta-btn-box">
-                        <Link href="/contact">
+                        <Link href="/volunteers">
                             <a className="custom-btn">Click here to Volunteer</a>
                         </Link>
                     </div>

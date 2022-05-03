@@ -5,20 +5,20 @@ import PricingStyleTwo from '../components/Pricing/PricingStyleTwo';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
 
-class Pricing extends Component {
+class Impact extends Component {
     render() {
         return (
             <>
                 <NavbarTwo />
                 
                 <PageBanner 
-                    pageTitle="Our Pricing" 
+                    pageTitle="Our Impact" 
                     BGImage="bg-four"
                 />  
 
-                <PricingStyleTwo />
+             
+             <h1>Our Impact</h1>
 
-                <CtaAreaTwo />
 
                 <Footer />
             </>
@@ -26,4 +26,4 @@ class Pricing extends Component {
     }
 }
 
-export default Pricing;
+export default Impact;

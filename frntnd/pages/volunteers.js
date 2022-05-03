@@ -4,21 +4,21 @@ import PageBanner from '../components/Common/PageBanner';
 import ServicesStyleOne from '../components/Services/ServicesStyleOne';
 import CtaAreaTwo from '../components/Common/CtaAreaTwo';
 import Footer from '../components/Layouts/Footer';
+import ContactForm from '../components/Contact/ContactForm';
 
-class Services extends Component {
+
+class Volunteers extends Component {
     render() {
         return (
             <>
                 <NavbarTwo />
                 
                 <PageBanner 
-                    pageTitle="Our Services" 
+                    pageTitle="Volunteers" 
                     BGImage="bg-one"
                 />  
 
-                <ServicesStyleOne />
-
-                <CtaAreaTwo />
+<ContactForm />
 
                 <Footer />
             </>
@@ -26,4 +26,4 @@ class Services extends Component {
     }
 }
 
-export default Services;
+export default Volunteers;

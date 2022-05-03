@@ -18,19 +18,19 @@ class OurWorks extends Component {
                                 <div className="single-case-studies bg4">
                                     <div className="content">
                                         <span>
-                                            <Link href="/portfolio-details">
+                                            <Link href="/pahesa">
                                                 <a>PAHESA</a>
                                             </Link>
                                         </span>
 
                                         <h3>
-                                            <Link href="/portfolio-details">
+                                            <Link href="/pahesa">
                                                 <a>Pan-African Humaniterian and Enterpreneural Summit</a>
                                             </Link>
                                         </h3>
                                     </div>
 
-                                    <Link href="/portfolio-details">
+                                    <Link href="/pahesa">
                                         <a className="btn btn-primary">View Past Events</a>
                                     </Link>
 
@@ -44,19 +44,19 @@ class OurWorks extends Component {
                                 <div className="single-case-studies bg5">
                                     <div className="content">
                                         <span>
-                                            <Link href="/portfolio-details">
+                                            <Link href="/child-summit">
                                                 <a>Child Summit</a>
                                             </Link>
                                         </span>
 
                                         <h3>
-                                            <Link href="/portfolio-details">
+                                            <Link href="/child-summit">
                                                 <a>Child Summit</a>
                                             </Link>
                                         </h3>
                                     </div>
 
-                                    <Link href="/portfolio-details">
+                                    <Link href="/child-summit">
                                         <a className="btn btn-primary">View Past Events</a>
                                     </Link>
 
@@ -70,19 +70,19 @@ class OurWorks extends Component {
                                 <div className="single-case-studies bg6">
                                     <div className="content">
                                         <span>
-                                            <Link href="/portfolio-details">
+                                            <Link href="/fbi">
                                                 <a>FBI</a>
                                             </Link>
                                         </span>
 
                                         <h3>
-                                            <Link href="/portfolio-details">
+                                            <Link href="/fbi">
                                                 <a>FBI Magazine</a>
                                             </Link>
                                         </h3>
                                     </div>
 
-                                    <Link href="/portfolio-details">
+                                    <Link href="/fbi">
                                         <a className="btn btn-primary">View past editions</a>
                                     </Link>
 
@@ -94,7 +94,7 @@ class OurWorks extends Component {
                         </div>
 
                         <div className="view-more-work">
-                            <Link href="/portfolio">
+                            <Link href="/impact">
                                 <a className="btn btn-primary">Check out our Impact </a>
                             </Link>
                         </div>
