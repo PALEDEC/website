@@ -125,7 +125,7 @@ class NavbarTwo extends Component {
 
                                             <li className="nav-item">
                                                 <Link href="/portfolio-details" activeClassName="active">
-                                                    <a className="nav-link">Donate</a>
+                                                    <a className="nav-link">DONATE</a>
                                                 </Link>
                                             </li>
 
