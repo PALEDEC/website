@@ -66,3 +66,9 @@ build
 
 # dotenv environment variables file
 .env
+
+.next/
+node_modules/
+/npm-debug.log
+.DS_Store
+out/
