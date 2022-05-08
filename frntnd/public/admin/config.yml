@@ -1,7 +1,6 @@
 local_backend: true
 backend:
   name: git-gateway
-  repo: paledec/website
   branch: netlify
 publish_mode: editorial_workflow
 media_folder: "public/images"
